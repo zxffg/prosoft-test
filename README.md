@@ -1,4 +1,4 @@
-# Prosoft-Test — тестовое задание, Школа разработчиков «Прософт-Системы»
+# Prosoft-Test - тестовое задание, Школа разработчиков «Прософт-Системы»
 
 Решения 5 задач LeetCode на C++ для вступительного тестового задания.
 
@@ -21,7 +21,7 @@
 - **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)** - Medium · [код](medium/0003-longest-substring-without-repeating-characters.cpp) · [разбор](medium/README.md#0003-longest-substring-without-repeating-characters) · время O(n), память O(1)
 - **[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)** - Hard · [код](hard/0042-trapping-rain-water.cpp) · [разбор](hard/README.md#0042-trapping-rain-water) · время O(n), память O(1)
 
-## Сборка и запуск.
+## Сборка и запуск
 
 Каждое решение — самостоятельный .cpp файл, компилируется отдельно.
 
@@ -38,7 +38,7 @@ xcode-select --install
 clang++ -std=c++17 -O2 easy/0020-valid-parentheses.cpp -o solution
 ./solution
 ```
-На macOS команда g++ обычно тоже сработает — она линкуется на Clang, так что g++ -std=c++17 ... даёт тот же результат, что и clang++.
+На macOS команда g++ обычно тоже сработает - она линкуется на Clang, так что g++ -std=c++17... даёт тот же результат, что и clang++.
 ```bash
 g++ -std=c++17 -O2 easy/0020-valid-parentheses.cpp -o solution
 ./solution
