@@ -29,8 +29,6 @@
 - Память: O(n)
 где n - длина строки.
 
-![img.png](../.cache/020.png)
-
 ---
 
 ## 0121 - Best time to buy and sell stock
@@ -47,5 +45,3 @@
 
 - Время: O(n), где n - это количество эл-ов в `prices`
 - Память: O(1)
-
-![img.png](../.cache/121.png)

@@ -33,7 +33,7 @@ public:
 
 int main() {
     Solution sol;
-    cout << boolalpha << sol.isValid("()[]{}") << endl; // ожидается: true
+    cout << boolalpha << sol.isValid("()[]{}") << endl;  // ожидается: true
     cout << boolalpha << sol.isValid("(]") << endl;      // ожидается: false
     return 0;
 }
